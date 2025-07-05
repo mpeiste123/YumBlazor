@@ -3,11 +3,7 @@
 @inject IProductRepository _productRepository
 @inject IJSRuntime _JS
 
-<BsModal OnModalConfirmation="ConfirmDelete_Click"
-ButtonBootstrapStyle="btn-danger"
-ButtonText="Delete"
-Title="Are you sure you want to delete this Caegory?">
-</BsModal>
+
 
 @if(isProcessing)
 {
