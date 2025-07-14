@@ -16,7 +16,7 @@ namespace YumBlazor.Data
         [Required]
         public int Count { get; set; }
         [Required]
-        public int Price { get; set; }
+        public double Price { get; set; }
         [Required]
         public string ProductName { get; set; }
     }
